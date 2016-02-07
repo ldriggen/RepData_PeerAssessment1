@@ -232,7 +232,7 @@ plot(weekend_ints$interval,weekend_ints$intervalmean,type="l",main="Weekend",xla
 ![](PA1_template_files/figure-html/unnamed-chunk-12-1.png) 
 
 
-
+To answer the question for this section, yes there does appear to be a difference between the weekday and weekend steps. The weekday activity starts earlier in the morning (about 5:00 AM) with a peak between 8:00 AM and 9:00 AM. The weekend activity starts later in the day and is spread more evenly throughout the day.
 
 
 
