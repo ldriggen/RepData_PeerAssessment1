@@ -163,7 +163,7 @@ names(intmeanWdWE)[names(intmeanWdWE)=="x"] <- "intervalmean"
 weekday_ints<-intmeanWdWE[intmeanWdWE$WdayWend=="weekday",]
 weekend_ints<-intmeanWdWE[intmeanWdWE$WdayWend=="weekend",]
 # set up the plot frame and execute the plots.
-par(mfrow = c(2, 1))
+par(mfrow = c(2, 1),mar=c(2,4,2,2))
 plot(weekday_ints$interval,weekday_ints$intervalmean,type="l",main="Weekday",xlab="interval",ylab="mean steps",ylim=c(0,250))
 plot(weekend_ints$interval,weekend_ints$intervalmean,type="l",main="Weekend",xlab="interval",ylab="mean steps",ylim=c(0,250))
 ```
